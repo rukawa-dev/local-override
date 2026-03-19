@@ -1,11 +1,27 @@
 .search_wrap{
-  display: none;
+  display:none;
 }
 
-.sub_page .card_box.type_02 .card_list2 .card_item{
+.card-list-4cf69327{
+  .card_item{
+    .card_info{
+      .txt_list.type_icon{
+        justify-content:space-between;
+      }
+    }
+  }
+  
+  
 }
 
-.item-897bdc28{
-  outline:2px dashed red;
-  outline-offset:-2px;
+.box-4457fbb2{
+  margin-top:10px;
+  padding-bottom:10px;
+  border-top:1px solid black;
+}
+
+.flag-702869e7{
+  border:1px solid black;
+  background-color:gray;
+  color:#333333;
 }
