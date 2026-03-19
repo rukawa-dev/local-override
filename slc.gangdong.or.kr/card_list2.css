@@ -1,27 +1,62 @@
-.search_wrap{
-  display:none;
+.search_wrap {
+  display: none;
 }
 
-.card-list-4cf69327{
-  .card_item{
-    .card_info{
-      .txt_list.type_icon{
-        justify-content:space-between;
+.card-list-4cf69327 {
+  .card_item {
+    .card_info {
+      .txt_list.type_icon {
+        justify-content: space-between;
+
+        .txt_item::before {
+          display: none;
+        }
       }
     }
   }
-  
-  
+
+
 }
 
-.box-4457fbb2{
-  margin-top:10px;
-  padding-bottom:10px;
-  border-top:1px solid black;
+
+.box-4457fbb2 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #eee;
 }
 
-.flag-702869e7{
-  border:1px solid black;
-  background-color:gray;
-  color:#333333;
+.flag-702869e7 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 18px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-left: 8px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.flag-702869e7.type-1 {
+  background: #e7f5ff;
+  border-color: #d0ebff;
+  color: #228be6;
+}
+
+.flag-702869e7.type-1::after {
+  content: "접수중";
+}
+
+.flag-702869e7.type-2 {
+  background: #fff0f0;
+  border-color: #ffd8d8;
+  color: #ff5a5a;
+}
+
+.flag-702869e7.type-2::after {
+  content: "접수마감";
 }
