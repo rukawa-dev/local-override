@@ -1,0 +1,24 @@
+{
+  "name": "local-override",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rukawa-dev/local-override#readme",
+  "bugs": {
+    "url": "https://github.com/rukawa-dev/local-override/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rukawa-dev/local-override.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"에러: 지정된 테스트가 없습니다\" && exit 1",
+    "dev": "live-server"
+  },
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
