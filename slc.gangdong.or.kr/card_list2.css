@@ -43,7 +43,11 @@
         font-weight: 700;
         margin-bottom: 14px;
         line-height: 1.4;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
         -webkit-line-clamp: 1 !important;
+        line-clamp: 1 !important;
       }
 
       .txt_list.type_icon {
